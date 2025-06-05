@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+kubernetes
+krr
+pydantic
+prometheus-api-client
