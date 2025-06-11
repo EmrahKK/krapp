@@ -11,6 +11,7 @@ RUN apt-get update && apt-get install -y \
 # Python bağımlılıkları
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install https://github.com/robusta-dev/krr/archive/refs/tags/v1.23.0.tar.gz
 
 COPY . .
 
